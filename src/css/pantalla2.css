@@ -2,7 +2,7 @@
   background-image: url("../img/banner2.png");
   background-repeat: no-repeat;
   background-position: center;
-  height: 17vh;
+  height: 16vh;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -10,7 +10,7 @@
     background-image: url("../img/baner-mobile2.png");
     background-repeat: no-repeat;
     background-position: center;
-    height: 18vh;
+    height: 16vh;
   }
 }
 
@@ -36,23 +36,7 @@
     max-width: 50%;
   }
 
-  .text-center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 
-  .flex-md-row {
-    flex-direction: row;
-  }
-  .card {
-    width: 100%;
-    margin: 10px;
-  }
-
-  .card-body {
-    padding: 10px;
-  }
 }
 
 .title {

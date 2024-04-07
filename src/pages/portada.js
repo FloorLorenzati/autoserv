@@ -2,16 +2,19 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../css/portada.css";
+import logo from "../img/logo.png"
 
 function Portada() {
   return (
     <div className='portadaContainer'>
-      <div className="d-grid gap-2 col-1 mx-auto fixed-bottom m-5">
-        <Link to="/pantalla1" className="btn btn-danger btnComprar" role="button">
-          COMPRAR AHORA
-        </Link>
+      <div style={{ backgroundImage: `url(${logo})`, height: '30vh', backgroundRepeat: 'no-repeat' }}>
+        <div className="d-grid gap-2 col-1 mx-auto fixed-bottom m-5">
+          <Link to="/pantalla1" className="btn btn-danger btnComprar" role="button">
+            COMPRAR AHORA
+          </Link>
+        </div>
       </div>
-    </div>
+      </div>
   );
 }
 

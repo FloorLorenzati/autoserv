@@ -1,6 +1,9 @@
 .portadaContainer {
   background-image: url("../img/portada.png");
+  background-repeat: no-repeat;
+  background-position: center; 
   height: 100vh;
+  background-size: cover;
 }
 
 @media only screen and (max-width: 425px) {
@@ -8,6 +11,7 @@
     background-image: url("../img/portada-mobile.png");
     background-repeat: no-repeat;
     background-position: center; 
+    background-size: cover;
     height: 100vh;
   }
 }
@@ -17,11 +21,3 @@
   justify-content: center;
 }
 
-.fondoStyle {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.contenedor {
-  height: 100vh;
-}

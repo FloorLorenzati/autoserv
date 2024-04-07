@@ -11,15 +11,17 @@ import especialidades from "../img/especialidades.png"
 import copaHelada from "../img/copahelada.png"
 import copaDulce from "../img/copadulce.png"
 import promociones from "../img/promociones.png"
+import logo from "../img/logo.png"
 // ------
 
 function pantalla1() {
   return (
     <>
-      <nav className='containerPantalla1'>
+      <nav className='containerPantalla1 mb-4'>
+      <div style={{ backgroundImage: `url(${logo})`,height: '30vh',backgroundRepeat:'no-repeat' }}></div>
       </nav>
       <div class="container m-4 mx-auto containerInfo">
-        <h1 className='title'>ELIGE UNA OPCIÓN</h1>
+        <h1 className='title m-5'>ELIGE UNA OPCIÓN</h1>
         <div class="row">
           <div class="col-md-3 ">
             {/* <a href="url_destino"> */}
@@ -108,8 +110,10 @@ function pantalla1() {
 
 
         <div class="text-center flex-md-row flex-column justify-content-center m-4">
-          {/* <a href="/pantalla2" class="btn btnGreen btnComprar customBtn" role="button">Seleccionar</a> */}
-          <a href="/" class="btn btnRed btn-danger btnComprar customBtn ml-md-2 mt-md-0 mt-2" role="button">Cancelar</a>
+          <Link to="/" class="btn btnRed btn-danger btnComprar customBtn ml-md-2 mt-md-0 mt-2" role="button">
+            Cancelar Orden
+          </Link>
+
         </div>
       </div>
     </>
