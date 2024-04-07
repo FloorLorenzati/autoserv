@@ -2,6 +2,7 @@
   background-image: url("../img/banner2.png");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   height: 16vh;
 }
 
@@ -10,6 +11,7 @@
     background-image: url("../img/baner-mobile2.png");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     height: 16vh;
   }
 }
@@ -26,6 +28,7 @@
     background-image: url("../img/barra-mobile.png");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     height: 23vh;
   }
 }
@@ -36,7 +39,23 @@
     max-width: 50%;
   }
 
+  .text-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .flex-md-row {
+    flex-direction: row;
+  }
+  .card {
+    width: 100%;
+    margin: 10px;
+  }
+
+  .card-body {
+    padding: 10px;
+  }
 }
 
 .title {
