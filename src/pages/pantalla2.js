@@ -20,14 +20,14 @@ function pantalla2() {
         <h1 className='title'>ELIGE UNA OPCIÓN</h1>
         <div class="row">
           <div class="col-md-3 ">
-            <a href="url_destino">
+          <Link to="/pantalla2" role="button">
               <div class="card h-300 mb-4">
                 <img src={simple} class="card-img-top" />
                 <div class="card-body ">
                   <h5 class="card-title text-center" id='textDecoration'>SIMPLE</h5>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
           <div class="col-md-3">
             {/* <a href="url_destino"> */}

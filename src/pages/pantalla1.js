@@ -23,42 +23,42 @@ function pantalla1() {
         <div class="row">
           <div class="col-md-3 ">
             {/* <a href="url_destino"> */}
-              <div class="card h-300 mb-4">
-                <img src={bebidas} class="card-img-top" />
-                <div class="card-body ">
-                  <h5 class="card-title text-center" id='textDecoration'>BEBIDAS</h5>
-                </div>
+            <div class="card h-300 mb-4">
+              <img src={bebidas} class="card-img-top" />
+              <div class="card-body ">
+                <h5 class="card-title text-center" id='textDecoration'>BEBIDAS</h5>
               </div>
+            </div>
             {/* </a> */}
           </div>
           <div class="col-md-3">
             {/* <a href="url_destino"> */}
-              <div class="card h-300 mb-4">
-                <img src={cafeteria} class="card-img-top" />
-                <div class="card-body">
-                  <h5 class="card-title text-center" id='textDecoration'>CAFETERIA</h5>
-                </div>
+            <div class="card h-300 mb-4">
+              <img src={cafeteria} class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title text-center" id='textDecoration'>CAFETERIA</h5>
               </div>
+            </div>
             {/* </a> */}
           </div>
           <div class="col-md-3">
-            <a href="/pantalla2">
+            <Link to="/pantalla2" role="button">
               <div class="card h-300 mb-4">
                 <img src={cucuruchos} class="card-img-top" />
                 <div class="card-body">
                   <h5 class="card-title text-center" id='textDecoration'>CUCURUCHO</h5>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
           <div class="col-md-3">
             {/* <a href="url_destino"> */}
-              <div class="card h-300 mb-4">
-                <img src={chocolate} class="card-img-top" />
-                <div class="card-body">
-                  <h5 class="card-title text-center" id='textDecoration'>CHOCOLATE</h5>
-                </div>
+            <div class="card h-300 mb-4">
+              <img src={chocolate} class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title text-center" id='textDecoration'>CHOCOLATE</h5>
               </div>
+            </div>
             {/* </a> */}
           </div>
         </div>
@@ -66,42 +66,42 @@ function pantalla1() {
         <div class="row">
           <div class="col-md-3">
             {/* <a href="url_destino"> */}
-              <div class="card h-300 mb-4">
-                <img src={especialidades} class="card-img-top" />
-                <div class="card-body">
-                  <h5 class="card-title text-center" id='textDecoration'>ESPECIALIDADES</h5>
-                </div>
+            <div class="card h-300 mb-4">
+              <img src={especialidades} class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title text-center" id='textDecoration'>ESPECIALIDADES</h5>
               </div>
+            </div>
             {/* </a> */}
           </div>
           <div class="col-md-3">
             {/* <a href="url_destino"> */}
-              <div class="card h-300 mb-4">
-                <img src={copaHelada} class="card-img-top" />
-                <div class="card-body">
-                  <h5 class="card-title text-center" id='textDecoration'>COPA HELADA</h5>
-                </div>
+            <div class="card h-300 mb-4">
+              <img src={copaHelada} class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title text-center" id='textDecoration'>COPA HELADA</h5>
               </div>
+            </div>
             {/* </a> */}
           </div>
           <div class="col-md-3">
             {/* <a href="url_destino"> */}
-              <div class="card h-300 mb-4">
-                <img src={copaDulce} class="card-img-top" />
-                <div class="card-body">
-                  <h5 class="card-title text-center" id='textDecoration'>COPA DULCE</h5>
-                </div>
+            <div class="card h-300 mb-4">
+              <img src={copaDulce} class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title text-center" id='textDecoration'>COPA DULCE</h5>
               </div>
+            </div>
             {/* </a> */}
           </div>
           <div class="col-md-3">
             {/* <a href="url_destino"> */}
-              <div class="card h-300 mb-4 ">
-                <img src={promociones} class="card-img-top" />
-                <div class="card-body">
-                  <h5 class="card-title text-center" id='textDecoration'>PROMOCIONES</h5>
-                </div>
+            <div class="card h-300 mb-4 ">
+              <img src={promociones} class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title text-center" id='textDecoration'>PROMOCIONES</h5>
               </div>
+            </div>
             {/* </a> */}
           </div>
         </div>
