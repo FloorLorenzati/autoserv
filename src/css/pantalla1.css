@@ -1,0 +1,30 @@
+.title{
+color: gray;
+}
+
+.card-img-top {
+    height: 250px; 
+    object-fit: cover; 
+}
+.card {
+    border-radius: 20px; 
+    box-shadow: 0px 20px 20px  rgba(0, 0, 0, 0.3);
+}
+
+#textDecoration {
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+#banner {
+    position: relative; /* Asegura que el banner tenga una posición relativa */
+    z-index: 1; /* Asegura que el banner esté por encima del logo */
+  }
+  
+ #logo {
+    position: absolute; /* Posiciona el logo de forma absoluta dentro del cuerpo */
+    top: 20px; /* Ajusta la distancia desde la parte superior */
+    left: 20px; /* Ajusta la distancia desde el lado izquierdo */
+    z-index: 20; /* Asegura que el logo esté por encima del contenido */
+  }
