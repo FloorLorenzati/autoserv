@@ -7,7 +7,7 @@ import logo from "../img/logo.png"
 function Portada() {
   return (
     <div className='portadaContainer'>
-      <div style={{ backgroundImage: `url(${logo})`, height: '30vh', backgroundRepeat: 'no-repeat' }}>
+      <div className='logo' style={{ backgroundImage: `url(${logo})`, height: '25vh', backgroundRepeat: 'no-repeat' }}>
         <div className="d-grid gap-2 col-1 mx-auto fixed-bottom m-5">
           <Link to="/pantalla1" className="btn btn-danger btnComprar" role="button">
             COMPRAR AHORA
