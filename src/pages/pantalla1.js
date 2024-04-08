@@ -17,7 +17,7 @@ import logo from "../img/logo.png"
 function pantalla1() {
   return (
     <>
-      <nav className='containerPantalla1 mb-4'>
+      <nav className='containerPantalla1'>
       <div style={{ backgroundImage: `url(${logo})`,height: '30vh',backgroundRepeat:'no-repeat' }}></div>
       </nav>
       <div class="container m-4 mx-auto containerInfo">

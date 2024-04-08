@@ -1,2 +1,18 @@
+.portadaPago {
+    background-image: url("../img/pago.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 100vh;
+    background-size: cover;
+  }
 
-  
+@media only screen and (max-width: 1000px) {
+  .portadaPago {
+    background-image: url("../img/pagoMobile.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 100%;     
+    background-size: cover;
+  }
+
+}
