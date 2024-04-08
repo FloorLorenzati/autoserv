@@ -7,7 +7,6 @@ import simple from "../img/simple.png"
 import especial from "../img/especial.png"
 import bañado from "../img/bañado.png"
 import tresGustos from "../img/tresgustos.png"
-import logo from "../img/logo.png"
 // ------
 
 function pantalla2() {
@@ -22,11 +21,11 @@ function pantalla2() {
           <div className="container m-4 mx-auto containerInfo w-75">
             <div className="row">
               <div className="col-md-3 ">
-                <Link to="/pantalla2" role="button" className="linkNoUnderline">
+                <Link to="/descripcion" role="button" className="linkNoUnderline">
                   <div className="card h-300 mb-4">
                     <img src={simple} className="carImgTopMobile" />
                     <div className="card-body ">
-                      <h5 className="card-title text-center" id='textDecoration'>SIMPLE</h5>
+                      <h5 className="card-title text-center textDecoration">SIMPLE</h5>
                     </div>
                   </div>
                 </Link>
@@ -83,7 +82,7 @@ function pantalla2() {
           <div className="container m-4 mx-auto containerInfo">
             <div className="row">
               <div className="col-md-3 ">
-                <Link to="/pantalla2" role="button" className="linkNoUnderline">
+                <Link to="/descripcion" role="button" className="linkNoUnderline">
                   <div className="card h-300 mb-4">
                     <img src={simple} className="carImgTop" />
                     <div className="card-body ">
@@ -148,7 +147,6 @@ function pantalla2() {
     <>
 
       <nav className='containerPantalla2'>
-        <div style={{ backgroundImage: `url(${logo})`, height: '30vh', backgroundRepeat: 'no-repeat' }}></div>
       </nav>
       <div className='containerBarra'></div>
       <h1 className='title m-5 '>CUCURUCHOS</h1>

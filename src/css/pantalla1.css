@@ -10,8 +10,33 @@
   .containerPantalla1 {
     background-image: url("../img/baner-mobile1.png");
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
     height: 110px;
+    margin-top: -4px;
+    background-size: cover;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .containerPantalla1 {
+    background-image: url("../img/baner-mobile1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70px;
+    margin-top: -3px;
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .containerPantalla1 {
+    background-image: url("../img/baner-mobile1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 65px;
+    margin-top: -3px;
+    background-size: cover;
   }
 }
 

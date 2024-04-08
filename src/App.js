@@ -4,6 +4,8 @@ import Portada from './pages/portada';
 import Pantalla1 from './pages/pantalla1';
 import Pantalla2 from './pages/pantalla2';
 import Pago from './pages/pago';
+import Descripcion from './pages/descripcion';
+
 
 
 
@@ -15,6 +17,8 @@ function App() {
         <Route path="/pantalla1" element={<Pantalla1 />} />
         <Route path="/pantalla2" element={<Pantalla2 />} />
         <Route path="/pago" element={<Pago />} />
+        <Route path="/descripcion" element={<Descripcion />} />
+
 
       </Routes>
     </Router>

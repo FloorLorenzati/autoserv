@@ -13,6 +13,29 @@
     background-position: center;
     height: 110px;
     margin-top: -3px;
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .containerPantalla2 {
+    background-image: url("../img/baner-mobile2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70px;
+    margin-top: -3px;
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .containerPantalla2 {
+    background-image: url("../img/baner-mobile2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 65px;
+    margin-top: -3px;
+    background-size: cover;
   }
 }
 
@@ -29,11 +52,11 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 130px;
+    height: 140px;
   }
 }
 
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 650px) {
   .containerBarra {
     background-image: url("../img/barra-mobile.png");
     background-repeat: no-repeat;
