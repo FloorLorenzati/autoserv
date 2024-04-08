@@ -33,6 +33,7 @@
   }
 }
 
+
 @media only screen and (max-width: 550px) {
   .containerBarra {
     background-image: url("../img/barra-mobile.png");
