@@ -64,7 +64,7 @@ function Pago() {
                 <label htmlFor="codigoSeguridad">Código de seguridad<span className="required">*</span></label>
                 <input type="text" className="form-control w-25" id="codigoSeguridad" required />
               </div>
-              <button type="submit" className="btn btn-success btnGreen" style={{ margin: '1em' }}>Aceptar</button>
+              <button type="submit" className="btn btn-success btnGreen " style={{ margin: '1em' }}>Pagar</button>
             </form>
 
           </div>

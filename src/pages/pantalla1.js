@@ -29,40 +29,40 @@ function pantalla1() {
             <div className="row">
               <div className="col-md-3 ">
                 {/* <Link to="/pantalla2" role="button" className="linkNoUnderline"> */}
-                <div className="card h-300 mb-4">
-                  <img src={bebidas} className="card-img-top" />
+                <div className="card h-300 mb-4 custom-card">
+                  <img src={bebidas} className="carImgTopMobile" />
                   <div className="card-body ">
-                    <h5 className="card-title text-center" id='textDecoration'>BEBIDAS</h5>
+                    <h5 className="card-title text-center textDecoration" >BEBIDAS</h5>
                   </div>
                 </div>
                 {/* </Link> */}
               </div>
-              <div className="col-md-3">
+              <div className="col-md-3 ">
                 {/* <Link to="/pantalla2" role="button" className="linkNoUnderline"> */}
-                <div className="card h-300 mb-4">
-                  <img src={cafeteria} className="card-img-top" />
+                <div className="card h-300 mb-4 custom-card">
+                  <img src={cafeteria} className="carImgTopMobile" />
                   <div className="card-body">
-                    <h5 className="card-title text-center" id='textDecoration'>CAFETERIA</h5>
+                    <h5 className="card-title text-center textDecoration" >CAFETERIA</h5>
                   </div>
                 </div>
                 {/* </Link> */}
               </div>
               <div className="col-md-3">
                 <Link to="/pantalla2" role="button" className="linkNoUnderline">
-                  <div className="card h-300 mb-4">
-                    <img src={cucuruchos} className="card-img-top" />
+                  <div className="card h-300 mb-4 custom-card">
+                    <img src={cucuruchos} className="carImgTopMobile" />
                     <div className="card-body">
-                      <h5 className="card-title text-center" id='textDecoration'>CUCURUCHO</h5>
+                      <h5 className="card-title text-center textDecoration" >CUCURUCHO</h5>
                     </div>
                   </div>
                 </Link>
               </div>
               <div className="col-md-3">
                 {/* <Link to="/pantalla2" role="button" className="linkNoUnderline"> */}
-                <div className="card h-300 mb-4">
-                  <img src={chocolate} className="card-img-top" />
+                <div className="card h-300 mb-4 custom-card">
+                  <img src={chocolate} className="carImgTopMobile" />
                   <div className="card-body">
-                    <h5 className="card-title text-center" id='textDecoration'>CHOCOLATE</h5>
+                    <h5 className="card-title text-center textDecoration" >CHOCOLATE</h5>
                   </div>
                 </div>
                 {/* </Link> */}
@@ -72,40 +72,40 @@ function pantalla1() {
             <div className="row">
               <div className="col-md-3">
                 {/* <Link to="/pantalla2" role="button" className="linkNoUnderline"> */}
-                <div className="card h-300 mb-4">
-                  <img src={especialidades} className="card-img-top" />
+                <div className="card h-300 mb-4 custom-card">
+                  <img src={especialidades} className="carImgTopMobile" />
                   <div className="card-body">
-                    <h5 className="card-title text-center" id='textDecoration'>ESPECIALIDADES</h5>
+                    <h5 className="card-title text-center textDecoration" >ESPECIALIDADES</h5>
                   </div>
                 </div>
                 {/* </Link> */}
               </div>
               <div className="col-md-3">
                 {/* <Link to="/pantalla2" role="button" className="linkNoUnderline"> */}
-                <div className="card h-300 mb-4">
-                  <img src={copaHelada} className="card-img-top" />
+                <div className="card h-300 mb-4 custom-card">
+                  <img src={copaHelada} className="carImgTopMobile" />
                   <div className="card-body">
-                    <h5 className="card-title text-center" id='textDecoration'>COPA HELADA</h5>
+                    <h5 className="card-title text-center textDecoration" >COPA HELADA</h5>
                   </div>
                 </div>
                 {/* </Link> */}
               </div>
               <div className="col-md-3">
                 {/* <Link to="/pantalla2" role="button" className="linkNoUnderline"> */}
-                <div className="card h-300 mb-4">
-                  <img src={copaDulce} className="card-img-top" />
+                <div className="card h-300 mb-4 custom-card">
+                  <img src={copaDulce} className="carImgTopMobile" />
                   <div className="card-body">
-                    <h5 className="card-title text-center" id='textDecoration'>COPA DULCE</h5>
+                    <h5 className="card-title text-center textDecoration" >COPA DULCE</h5>
                   </div>
                 </div>
                 {/* </Link> */}
               </div>
               <div className="col-md-3">
                 {/* <Link to="/pantalla2" role="button" className="linkNoUnderline"> */}
-                <div className="card h-300 mb-4 ">
-                  <img src={promociones} className="card-img-top" />
+                <div className="card h-300 mb-4 custom-card">
+                  <img src={promociones} className="carImgTopMobile " />
                   <div className="card-body">
-                    <h5 className="card-title text-center" id='textDecoration'>PROMOCIONES</h5>
+                    <h5 className="card-title text-center textDecoration" id=''>PROMOCIONES</h5>
                   </div>
                 </div>
                 {/* </Link> */}
@@ -133,9 +133,9 @@ function pantalla1() {
               <div className="col-md-3 ">
                 {/* <Link to="/pantalla2" role="button" className="linkNoUnderline"> */}
                 <div className="card h-300 mb-4">
-                  <img src={bebidas} className="card-img-top" />
+                  <img src={bebidas} className="carImgTop" />
                   <div className="card-body ">
-                    <h5 className="card-title text-center" id='textDecoration'>BEBIDAS</h5>
+                    <h5 className="card-title text-center textDecoration" >BEBIDAS</h5>
                   </div>
                 </div>
                 {/* </Link> */}
@@ -143,9 +143,9 @@ function pantalla1() {
               <div className="col-md-3">
                 {/* <Link to="/pantalla2" role="button" className="linkNoUnderline"> */}
                 <div className="card h-300 mb-4">
-                  <img src={cafeteria} className="card-img-top" />
+                  <img src={cafeteria} className="carImgTop" />
                   <div className="card-body">
-                    <h5 className="card-title text-center" id='textDecoration'>CAFETERIA</h5>
+                    <h5 className="card-title text-center textDecoration" >CAFETERIA</h5>
                   </div>
                 </div>
                 {/* </Link> */}
@@ -153,9 +153,9 @@ function pantalla1() {
               <div className="col-md-3">
                 <Link to="/pantalla2" role="button" className="linkNoUnderline">
                   <div className="card h-300 mb-4">
-                    <img src={cucuruchos} className="card-img-top" />
+                    <img src={cucuruchos} className="carImgTop" />
                     <div className="card-body">
-                      <h5 className="card-title text-center" id='textDecoration'>CUCURUCHO</h5>
+                      <h5 className="card-title text-center textDecoration" >CUCURUCHO</h5>
                     </div>
                   </div>
                 </Link>
@@ -163,9 +163,9 @@ function pantalla1() {
               <div className="col-md-3">
                 {/* <Link to="/pantalla2" role="button" className="linkNoUnderline"> */}
                 <div className="card h-300 mb-4">
-                  <img src={chocolate} className="card-img-top" />
+                  <img src={chocolate} className="carImgTop" />
                   <div className="card-body">
-                    <h5 className="card-title text-center" id='textDecoration'>CHOCOLATE</h5>
+                    <h5 className="card-title text-center textDecoration" >CHOCOLATE</h5>
                   </div>
                 </div>
                 {/* </Link> */}
@@ -176,9 +176,9 @@ function pantalla1() {
               <div className="col-md-3">
                 {/* <Link to="/pantalla2" role="button" className="linkNoUnderline"> */}
                 <div className="card h-300 mb-4">
-                  <img src={especialidades} className="card-img-top" />
+                  <img src={especialidades} className="carImgTop" />
                   <div className="card-body">
-                    <h5 className="card-title text-center" id='textDecoration'>ESPECIALIDADES</h5>
+                    <h5 className="card-title text-center textDecoration" >ESPECIALIDADES</h5>
                   </div>
                 </div>
                 {/* </Link> */}
@@ -186,9 +186,9 @@ function pantalla1() {
               <div className="col-md-3">
                 {/* <Link to="/pantalla2" role="button" className="linkNoUnderline"> */}
                 <div className="card h-300 mb-4">
-                  <img src={copaHelada} className="card-img-top" />
+                  <img src={copaHelada} className="carImgTop" />
                   <div className="card-body">
-                    <h5 className="card-title text-center" id='textDecoration'>COPA HELADA</h5>
+                    <h5 className="card-title text-center textDecoration" >COPA HELADA</h5>
                   </div>
                 </div>
                 {/* </Link> */}
@@ -196,9 +196,9 @@ function pantalla1() {
               <div className="col-md-3">
                 {/* <Link to="/pantalla2" role="button" className="linkNoUnderline"> */}
                 <div className="card h-300 mb-4">
-                  <img src={copaDulce} className="card-img-top" />
+                  <img src={copaDulce} className="carImgTop" />
                   <div className="card-body">
-                    <h5 className="card-title text-center" id='textDecoration'>COPA DULCE</h5>
+                    <h5 className="card-title text-center textDecoration" >COPA DULCE</h5>
                   </div>
                 </div>
                 {/* </Link> */}
@@ -206,9 +206,9 @@ function pantalla1() {
               <div className="col-md-3">
                 {/* <Link to="/pantalla2" role="button" className="linkNoUnderline"> */}
                 <div className="card h-300 mb-4 ">
-                  <img src={promociones} className="card-img-top" />
+                  <img src={promociones} className="carImgTop" />
                   <div className="card-body">
-                    <h5 className="card-title text-center" id='textDecoration'>PROMOCIONES</h5>
+                    <h5 className="card-title text-center textDecoration" >PROMOCIONES</h5>
                   </div>
                 </div>
                 {/* </Link> */}
@@ -237,7 +237,7 @@ function pantalla1() {
     <>
 
       <nav className='containerPantalla1'>
-        <div style={{ backgroundImage: `url(${logo})`, height: '30vh', backgroundRepeat: 'no-repeat' }}></div>
+        {/* <div style={{ backgroundImage: `url(${logo})`, height: '30vh', backgroundRepeat: 'no-repeat' }}></div> */}
       </nav>
       <h1 className='title m-5'>ELIGE UNA OPCIÓN</h1>
       {menorA1000pxContenedor()}

@@ -36,9 +36,16 @@
     margin: 10px;
   }
 }
+
+.textDecoration {
+  text-decoration: none;
+  font-weight: bold;
+  color: grey;
+  font-size: 1em;
+}
   @media only screen and (max-width: 620px) {
     .containerInfo .row .col-md-3 {
-      flex-basis: 60%;
+      flex-basis: 50%;
       max-width: 50%;
     }
   
@@ -51,15 +58,22 @@
     .flex-md-row {
       flex-direction: row;
     }
-    .card {
-      width: calc(90%); 
-      height: calc(70%); 
-      margin: 10px;
+
+    .custom-card {
+      width: calc(100%);
+      height: calc(80%); 
+
     }
-  
     .card-body {
       padding: 10px;
     }
+    .textDecoration {
+      text-decoration: none;
+      font-weight: bold;
+      color: grey;
+      font-size: 12px;
+    }
+    
   }
 
 
@@ -67,21 +81,21 @@
   color: gray;
 }
 
-.card-img-top {
-  height: 10px;
+.carImgTop {
+  height: 250px;
   object-fit: cover;
+}
+.carImgTopMobile{
+  height: 150px;
+  object-fit: cover;
+
 }
 .card {
   border-radius: 20px;
   box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.3);
 }
 
-#textDecoration {
-  text-decoration: none;
-  font-weight: bold;
-  color: grey;
-  font-size: 1em;
-}
+
 
 .linkNoUnderline{
 text-decoration: none;

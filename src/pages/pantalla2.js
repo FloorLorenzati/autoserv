@@ -24,7 +24,7 @@ function pantalla2() {
               <div className="col-md-3 ">
                 <Link to="/pantalla2" role="button" className="linkNoUnderline">
                   <div className="card h-300 mb-4">
-                    <img src={simple} className="card-img-top" />
+                    <img src={simple} className="carImgTopMobile" />
                     <div className="card-body ">
                       <h5 className="card-title text-center" id='textDecoration'>SIMPLE</h5>
                     </div>
@@ -34,9 +34,9 @@ function pantalla2() {
               <div className="col-md-3">
                 {/* <Link to="/pantalla2" role="button" className="linkNoUnderline"> */}
                 <div className="card h-300 mb-4">
-                  <img src={especial} className="card-img-top" />
+                  <img src={especial} className="carImgTopMobile" />
                   <div className="card-body">
-                    <h5 className="card-title text-center" id='textDecoration'>ESPECIAL</h5>
+                    <h5 className="card-title text-center textDecoration">ESPECIAL</h5>
                   </div>
                 </div>
                 {/* </Link> */}
@@ -44,9 +44,9 @@ function pantalla2() {
               <div className="col-md-3">
                 {/* <Link to="/pantalla2" role="button" className="linkNoUnderline"> */}
                 <div className="card h-300 mb-4">
-                  <img src={bañado} className="card-img-top" />
+                  <img src={bañado} className="carImgTopMobile" />
                   <div className="card-body">
-                    <h5 className="card-title text-center" id='textDecoration'>BAÑADO</h5>
+                    <h5 className="card-title text-center textDecoration" >BAÑADO</h5>
                   </div>
                 </div>
                 {/* </Link> */}
@@ -54,9 +54,9 @@ function pantalla2() {
               <div className="col-md-3">
                 {/* <Link to="/pantalla2" role="button" className="linkNoUnderline"> */}
                 <div className="card h-300 mb-4">
-                  <img src={tresGustos} className="card-img-top" />
+                  <img src={tresGustos} className="carImgTopMobile" />
                   <div className="card-body">
-                    <h5 className="card-title text-center" id='textDecoration'>TRES GUSTOS</h5>
+                    <h5 className="card-title text-center textDecoration" >TRES GUSTOS</h5>
                   </div>
                 </div>
                 {/* </Link> */}
@@ -85,9 +85,9 @@ function pantalla2() {
               <div className="col-md-3 ">
                 <Link to="/pantalla2" role="button" className="linkNoUnderline">
                   <div className="card h-300 mb-4">
-                    <img src={simple} className="card-img-top" />
+                    <img src={simple} className="carImgTop" />
                     <div className="card-body ">
-                      <h5 className="card-title text-center" id='textDecoration'>SIMPLE</h5>
+                      <h5 className="card-title text-center textDecoration" >SIMPLE</h5>
                     </div>
                   </div>
                 </Link>
@@ -95,9 +95,9 @@ function pantalla2() {
               <div className="col-md-3">
                 {/* <Link to="/pantalla2" role="button" className="linkNoUnderline"> */}
                 <div className="card h-300 mb-4">
-                  <img src={especial} className="card-img-top" />
+                  <img src={especial} className="carImgTop" />
                   <div className="card-body">
-                    <h5 className="card-title text-center" id='textDecoration'>ESPECIAL</h5>
+                    <h5 className="card-title text-center textDecoration" >ESPECIAL</h5>
                   </div>
                 </div>
                 {/* </Link> */}
@@ -105,9 +105,9 @@ function pantalla2() {
               <div className="col-md-3">
                 {/* <Link to="/pantalla2" role="button" className="linkNoUnderline"> */}
                 <div className="card h-300 mb-4">
-                  <img src={bañado} className="card-img-top" />
+                  <img src={bañado} className="carImgTop" />
                   <div className="card-body">
-                    <h5 className="card-title text-center" id='textDecoration'>BAÑADO</h5>
+                    <h5 className="card-title text-center textDecoration" >BAÑADO</h5>
                   </div>
                 </div>
                 {/* </Link> */}
@@ -115,9 +115,9 @@ function pantalla2() {
               <div className="col-md-3">
                 {/* <Link to="/pantalla2" role="button" className="linkNoUnderline"> */}
                 <div className="card h-300 mb-4">
-                  <img src={tresGustos} className="card-img-top" />
+                  <img src={tresGustos} className="carImgTop" />
                   <div className="card-body">
-                    <h5 className="card-title text-center" id='textDecoration'>TRES GUSTOS</h5>
+                    <h5 className="card-title text-center textDecoration" >TRES GUSTOS</h5>
                   </div>
                 </div>
                 {/* </Link> */}
