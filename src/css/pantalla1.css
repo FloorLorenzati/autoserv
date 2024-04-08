@@ -79,6 +79,7 @@
 #textDecoration {
   text-decoration: underline;
   font-weight: bold;
+  font-size: 1em;
 }
 
 .customBtn {
