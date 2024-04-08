@@ -108,9 +108,14 @@
 }
 
 #textDecoration {
-  text-decoration: underline;
+  text-decoration: none;
   font-weight: bold;
+  color: grey;
   font-size: 1em;
+}
+
+.linkNoUnderline{
+text-decoration: none;
 }
 
 .customBtn {

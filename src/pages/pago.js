@@ -7,24 +7,50 @@ import tarjeta1 from "../img/tarjetas.png";
 import tarjeta2 from "../img/tarjetas2.png";
 
 function Pago() {
+
+  const pantallaMenorA1000px = () => {
+    return window.innerWidth < 1000;
+  };
+
+  // Define el contenido del contenedor dinámicamente según el tamaño de la pantalla
+  const contenidoContenedor = () => {
+    if (pantallaMenorA1000px()) {
+      return (
+        <>
+          <h4 className='totalPagar'>Total a Pagar</h4>
+          <h4 className='montoPagar'>$5900</h4>
+        </>
+      );
+    } else {
+      return (
+        <>
+          <h4 className='totalPagar'>Total a Pagar</h4>
+          <h4 className='montoPagar'>$300</h4>
+        </>
+      );
+    }
+  };
+
   return (
     <>
-
       <div className='portadaPago'>
         <div className="row">
           <div className="col-md-2">
-            <img src={logo} alt="Logo" className='logo' style={{ maxHeight: '20vh'}} />
+            <img src={logo} alt="Logo" className='logo mt-5' style={{ maxHeight: '20vh' }} />
           </div>
           <div className="col-md-8">
             <div className="container mt-5 mb-5 border p-4 rounded bg-white">
               <div className="row">
                 <div className="col-md-6">
-                  <h4>Total a Pagar</h4>
-                  <p>$300</p>
+                  {contenidoContenedor()}
                 </div>
-                <div className="col-md-6 text-right">
-                  <button className="btn btn-success mr-2">Ver Detalle</button>
-                  <button className="btn btn-danger">Cancelar Orden</button>
+                <div className="col-md-6 align-items-left">
+                  <Link to="" className="btn btnGreen btnComprar customBtn ml-md-2 mt-md-0 mt-2 mb-2" role="button">
+                    Ver detalle
+                  </Link>
+                  <Link to="/pantalla2" className="btn btnRed btnComprar customBtn ml-md-2 mt-md-0 mt-2" role="button">
+                    Cancelar Orden
+                  </Link>
                 </div>
               </div>
             </div>
@@ -63,11 +89,11 @@ function Pago() {
               <label htmlFor="codigoSeguridad">Código de seguridad*</label>
               <input type="text" className="form-control" id="codigoSeguridad" placeholder="Código de seguridad" required />
             </div>
-            <button type="submit" className="btn btn-primary" style={{ margin: '1em' }}>Pagar</button>
+            <button type="submit" className="btn btn-primary btnGreen" style={{ margin: '1em' }}>Aceptar</button>
           </form>
-
-        </div>          <br></br>
-      </div></>
+        </div>
+      </div>
+    </>
   );
 }
 

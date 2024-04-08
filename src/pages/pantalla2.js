@@ -17,59 +17,59 @@ function pantalla2() {
       <div style={{ backgroundImage: `url(${logo})`,height: '30vh',backgroundRepeat:'no-repeat' }}></div>
       </nav>
       <div className='containerBarra'></div>
-      <div class="container m-4 mx-auto containerInfo">
-        <h1 className='title m-5'>CUCURUCHOS</h1>
-        <div class="row">
-          <div class="col-md-3 ">
-            <Link to="/pantalla2" role="button">
-              <div class="card h-300 mb-4">
-                <img src={simple} class="card-img-top" />
-                <div class="card-body ">
-                  <h5 class="card-title text-center" id='textDecoration'>SIMPLE</h5>
+      <div className="container m-4 mx-auto containerInfo">
+      <h1 className='title mt-5 mb-5'>CUCURUCHOS</h1>
+        <div className="row">
+          <div className="col-md-3 ">
+          <Link to="/pantalla2" role="button" className="linkNoUnderline">
+          <div className="card h-300 mb-4">
+                <img src={simple} className="card-img-top" />
+                <div className="card-body ">
+                  <h5 className="card-title text-center" id='textDecoration'>SIMPLE</h5>
                 </div>
               </div>
             </Link>
           </div>
-          <div class="col-md-3">
-            {/* <a href="url_destino"> */}
-            <div class="card h-300 mb-4">
-              <img src={especial} class="card-img-top" />
-              <div class="card-body">
-                <h5 class="card-title text-center" id='textDecoration'>ESPECIAL</h5>
+          <div className="col-md-3">
+          {/* <Link to="/pantalla2" role="button" className="linkNoUnderline"> */}
+          <div className="card h-300 mb-4">
+              <img src={especial} className="card-img-top" />
+              <div className="card-body">
+                <h5 className="card-title text-center" id='textDecoration'>ESPECIAL</h5>
               </div>
             </div>
-            {/* </a> */}
-          </div>
-          <div class="col-md-3">
-            {/* <a href="url_destino"> */}
-            <div class="card h-300 mb-4">
-              <img src={bañado} class="card-img-top" />
-              <div class="card-body">
-                <h5 class="card-title text-center" id='textDecoration'>BAÑADO</h5>
+            {/* </Link> */}
+            </div>
+          <div className="col-md-3">
+          {/* <Link to="/pantalla2" role="button" className="linkNoUnderline"> */}
+          <div className="card h-300 mb-4">
+              <img src={bañado} className="card-img-top" />
+              <div className="card-body">
+                <h5 className="card-title text-center" id='textDecoration'>BAÑADO</h5>
               </div>
             </div>
-            {/* </a> */}
-          </div>
-          <div class="col-md-3">
-            {/* <a href="url_destino"> */}
-            <div class="card h-300 mb-4">
-              <img src={tresGustos} class="card-img-top" />
-              <div class="card-body">
-                <h5 class="card-title text-center" id='textDecoration'>TRES GUSTOS</h5>
+            {/* </Link> */}
+            </div>
+          <div className="col-md-3">
+          {/* <Link to="/pantalla2" role="button" className="linkNoUnderline"> */}
+          <div className="card h-300 mb-4">
+              <img src={tresGustos} className="card-img-top" />
+              <div className="card-body">
+                <h5 className="card-title text-center" id='textDecoration'>TRES GUSTOS</h5>
               </div>
             </div>
-            {/* </a> */}
-          </div>
+            {/* </Link> */}
+            </div>
         </div>
 
 
 
-        <div class="text-center flex-md-row flex-column justify-content-center m-4">
+        <div className="text-center flex-md-row flex-column justify-content-center m-4">
 
-          <Link to="/pago" class="btn btnGreen btn-success btnComprar customBtn" role="button">
+          <Link to="/pago" className="btn btnGreen btn-success btnComprar customBtn" role="button">
             Pagar
           </Link>
-          <Link to="/pantalla1" class="btn btnRed btn-danger btnComprar customBtn ml-md-2 mt-md-0 mt-2" role="button">
+          <Link to="/pantalla1" className="btn btnRed btn-danger btnComprar customBtn ml-md-2 mt-md-0 mt-2" role="button">
             Cancelar Orden
           </Link>
         </div>

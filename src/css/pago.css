@@ -1,18 +1,38 @@
 .portadaPago {
-    background-image: url("../img/pago.png");
-    background-repeat: no-repeat;
-    background-position: center; 
-    height: 100vh;
-    background-size: cover;
-  }
+  background-image: url("../img/pago.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  background-size: cover;
+}
 
 @media only screen and (max-width: 1000px) {
   .portadaPago {
     background-image: url("../img/pagoMobile.png");
     background-repeat: no-repeat;
-    background-position: center; 
-    height: 100%;     
+    background-position: center;
+    height: 100vh;
     background-size: cover;
   }
+}
 
+.btnRed {
+  background-color: #c90101;
+  color: white;
+}
+
+.btnGreen {
+  background-color: #0b6214;
+  color: white;
+}
+
+.totalPagar {
+  font-size: 30px;
+  color: grey;
+}
+
+.montoPagar {
+  font-size: 50px;
+  color: grey;
+  font-weight: bold;
 }
