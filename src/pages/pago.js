@@ -76,15 +76,15 @@ function Pago() {
           <div className="col-md-8">
             <div style={{ backgroundColor: '#F8F9FA', padding: '20px', borderRadius: '5px', width: '75%', margin: '0 auto', marginTop: '3em', marginBottom: '2em', display: 'flex', alignItems: 'center' }}>
               <div style={{ marginRight: 'auto' }}>
-                <h4 className='totalPagar' style={{ margin: 0 }}>Total a Pagar</h4>
-                <h4 className='montoPagar' style={{ margin: 0 }}>$300</h4>
+                <h4 className='totalPagar' >Total a Pagar</h4>
+                <h4 className='montoPagar' >$300</h4>
               </div>
               <div>
-                <Link to="" className="btn btnGreen btnComprar customBtn" role="button">
+                <Link to="" className="btn btnGreen btn-success btnComprar customBtn" role="button">
                   Ver detalle
                 </Link>
                 <br></br>
-                <Link to="/pantalla2" className="btn btnRed btnComprar customBtn" role="button" style={{ marginTop: '20px' }}>
+                <Link to="/pantalla2" className="btn btnRed btn-danger btnComprar customBtn" role="button" style={{ marginTop: '20px' }}>
                   Cancelar Orden
                 </Link>
               </div>
@@ -153,7 +153,10 @@ function Pago() {
           {menorA1000pxContenedor()}
         </div>
         <br></br>
+        <br></br>
+
       </div>
+      
     </>
   );
 }

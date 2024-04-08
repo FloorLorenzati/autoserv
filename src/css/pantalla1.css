@@ -38,7 +38,7 @@
 }
   @media only screen and (max-width: 620px) {
     .containerInfo .row .col-md-3 {
-      flex-basis: 50%;
+      flex-basis: 60%;
       max-width: 50%;
     }
   
@@ -53,7 +53,7 @@
     }
     .card {
       width: calc(90%); 
-      height: calc(80%); 
+      height: calc(70%); 
       margin: 10px;
     }
   

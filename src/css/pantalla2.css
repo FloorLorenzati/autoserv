@@ -23,7 +23,7 @@
   height: 28vh;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 850px) {
   .containerBarra {
     background-image: url("../img/barra-mobile.png");
     background-repeat: no-repeat;
@@ -33,7 +33,7 @@
   }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 630px) {
   .containerBarra {
     background-image: url("../img/barra-mobile.png");
     background-repeat: no-repeat;
@@ -44,7 +44,7 @@
   }
 }
 
-/* @media only screen and (max-width: 990px) {
+@media only screen and (max-width: 990px) {
   .containerInfo .row .col-md-3 {
     flex-basis: 50%;
     max-width: 50%;
@@ -64,31 +64,31 @@
     margin: 10px;
   }
 }
-@media only screen and (max-width: 620px) {
-  .containerInfo .row .col-md-3 {
-    flex-basis: 50%;
-    max-width: 50%;
+  @media only screen and (max-width: 620px) {
+    .containerInfo .row .col-md-3 {
+      flex-basis: 60%;
+      max-width: 50%;
+    }
+  
+    .text-center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .flex-md-row {
+      flex-direction: row;
+    }
+    .card {
+      width: calc(90%); 
+      height: calc(70%); 
+      margin: 10px;
+    }
+  
+    .card-body {
+      padding: 10px;
+    }
   }
-
-  .text-center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .flex-md-row {
-    flex-direction: row;
-  }
-  .card {
-    width: calc(90%);
-    height: calc(80%);
-    margin: 10px;
-  }
-
-  .card-body {
-    padding: 10px;
-  }
-} */
 
 .card-body {
   padding: 10px;
